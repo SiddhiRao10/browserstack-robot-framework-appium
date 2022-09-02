@@ -52,6 +52,3 @@ Validate result
     ${output}=  get text    id=Text Output
     run keyword and return if    "${output}"=="hello@browserstack "  mark test status    passed  Test results have been validated!
     run keyword and return    mark test status    failed  Something went wrong!
-
-Validate sample test
-    mark test status    passed  Test results have been validated.

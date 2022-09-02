@@ -16,5 +16,4 @@ Open app
 
 *** Test Cases ***
 Sample app is launched successfully from Bitrise
-    Validate sample test
     Close app
