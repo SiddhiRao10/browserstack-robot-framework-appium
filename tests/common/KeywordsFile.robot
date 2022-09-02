@@ -55,5 +55,4 @@ Validate result
 
 Validate sample test
     ${length}=      get length    id=com.bitrise_io.sample_apps_android_simple_google_play_deploy:id/textView
-    run keyword and return mark test status    passed  Test results have been validated.
-    run keyword and return    mark test status    failed    Something went wrong!
+    BuiltIn.Run Keyword And Return    mark test status    passed  Test results have been validated.
