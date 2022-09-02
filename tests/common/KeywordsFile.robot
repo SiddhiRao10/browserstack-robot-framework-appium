@@ -54,6 +54,6 @@ Validate result
     run keyword and return    mark test status    failed  Something went wrong!
 
 Validate sample test
-    ${output}=    Element Should Be Visible    id=com.bitrise_io.sample_apps_android_simple_google_play_deploy:id/textView
-    run keyword and return if    "${output}"=="true"    mark test status    passed  Test results have been validated.
+    ${output}=    Run Keyword And Return Status Page Should Contain Element    id=com.bitrise_io.sample_apps_android_simple_google_play_deploy:id/textView
+    run keyword and return if    "${output}"=="True"    mark test status    passed  Test results have been validated.
     run keyword and return    mark test status    failed    Something went wrong!
