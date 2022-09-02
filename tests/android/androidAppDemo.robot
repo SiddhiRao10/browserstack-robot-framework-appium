@@ -1,5 +1,4 @@
 *** Settings ***
-Library    AppiumLibrary
 Resource   ../common/KeywordsFile.robot
 
 *** Variables ***
