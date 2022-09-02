@@ -6,10 +6,8 @@ Resource   ../common/KeywordsFile.robot
 ${APP_ID}=     "bs://dc9ea895eb05114744edb24f2639b6b6057a35bf"   #hashed id value can be hard coded here instead of fetching as environment variable.
 
 *** Test Cases ***
-Test Wiki app
+Test Sample app
     Open app
-    Search for keyword in wiki app
-    Validate wiki test
     Close app
 
 *** Keywords ***

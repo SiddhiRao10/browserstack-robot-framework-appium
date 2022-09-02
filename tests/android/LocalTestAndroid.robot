@@ -4,7 +4,7 @@ Resource   ../common/KeywordsFile.robot
 Library    String
 
 *** Variables ***
-${APP_ID}=     %{BROWSERSTACK_APP_ID}
+${APP_ID}=     "bs://50b992c0862b26f886d1fffed4b9630cabf768c9"
 
 *** Test Cases ***
 Test Wiki app
